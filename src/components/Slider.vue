@@ -1,6 +1,6 @@
 <template>
     <div class="row header">
-        <div class="home">
+        <div class="slider">
 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -35,7 +35,7 @@
 
 <script>
     export default {
-        name: 'Hello',
+        name: 'Slider',
 
     }
 </script>

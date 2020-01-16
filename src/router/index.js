@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
 import Annonce from '@/components/Annonce'
+
+import Home_Page from "../pages/Home_Page";
+
 
 Vue.use(Router)
 
@@ -9,8 +11,8 @@ export default new Router({
     routes: [
         {
             path: '/',
-            name: 'Home',
-            component: Home
+            name: 'Home_Page',
+            component: Home_Page
         },
         {
             path: '/annonce',
@@ -18,9 +20,9 @@ export default new Router({
             component: Annonce
         },
         // {
-        //     path: '/contact',
-        //     name: 'Coins',
-        //     component: Coins
+        //     path: '/test',
+        //     name: 'Test',
+        //     component: Test
         // },
         // {
         //   path: '/coins/:id',
