@@ -1,3 +1,11 @@
+/* Variables */
+:root {
+    --main-color:           orange;
+    --second-color:         red;
+    --third-color:          black;
+    --fourth-color:         white;
+}
+
 .row
 {
     width: 100vw;

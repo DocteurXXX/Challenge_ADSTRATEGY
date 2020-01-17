@@ -46,8 +46,14 @@
     .d-block
     {
         width: auto;
-        height: 90vh;
+        height: 80vh;
     }
 
+    @media only screen and (max-width: 1000px) {
+        .d-block
+        {
+            height: auto;
+        }
+    }
 
 </style>
