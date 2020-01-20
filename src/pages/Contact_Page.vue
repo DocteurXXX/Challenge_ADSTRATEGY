@@ -1,12 +1,18 @@
 <template>
     <div>
-        <h1>CONTACT</h1>
+        <Navbar/>
+        <Formulaire />
+        <Footer />
     </div>
 </template>
 
 <script>
+    import Navbar from "../components/Navbar";
+    import Footer from "../components/Footer";
+    import Formulaire from "../components/Formulaire";
     export default {
-        name: "Contact_Page"
+        name: "Contact_Page",
+        components: {Formulaire, Footer, Navbar}
     }
 </script>
 

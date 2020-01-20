@@ -1,6 +1,6 @@
 <template>
     <div class=" Navbar">
-        <nav class="row navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <img class="monkeyLogo"
                  src="./../assets/Monkey.png"
                  alt="Logo">
