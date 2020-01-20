@@ -5,6 +5,7 @@ import Contact_Page from "../pages/Contact_Page";
 import Profil_Page from "../pages/Profil_Page";
 import Panier_Page from "../pages/Panier_Page";
 import Home_Page from "../pages/Home_Page";
+import details from "../components/details";
 
 
 Vue.use(Router)
@@ -35,6 +36,12 @@ export default new Router({
             path: '/panier',
             name: 'Panier_Page',
             component: Panier_Page
+        },
+        {
+            path: '/details/:Pid',
+            name: 'details',
+            component: details
         }
+
     ]
 })
