@@ -11,14 +11,8 @@
                     <img :src="data.image1" class="img-fluid AnnoncePhoto">
                     <h3 class="productTitre">{{data.productTitle}}</h3>
                     <h3 class="productTitre">{{data.cylindre}} {{data.model}} </h3><br/>
-    <!--                <h5 class="description">Marque : {{data.productTitle}}</h5>-->
-    <!--                <h5 class="description">Cylindrée : {{data.cylindre}}</h5>-->
                     <h5 class="description">Année : {{data.year}}</h5>
-    <!--                <h5 class="description">Modèle : {{data.model}}</h5>-->
-    <!--                <h5 class="description">Couleur dominante : {{data.color}}</h5>-->
-    <!--                <h5 class="description">Kilomètrage : {{data.km}}</h5>-->
                     <h5 class="description">Prix : {{data.prix}}</h5><br/>
-    <!--                <h5 class="description">{{data.message}}</h5>-->
                     <button @click="goTodetail(data.productId)" type="button" class="btn btn-dark MoreInfo">En savoir plus</button>
                 </div>
             </div>
@@ -86,7 +80,7 @@
         },
         methods:{
             goTodetail(prodId) {
-                this.$router.push({name:'details',params:{Pid:prodId}})
+                this.$router.push({name:'Detail_Page',params:{Pid:prodId}})
             }
         }
     }

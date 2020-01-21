@@ -5,8 +5,7 @@ import Contact_Page from "../pages/Contact_Page";
 import Profil_Page from "../pages/Profil_Page";
 import Panier_Page from "../pages/Panier_Page";
 import Home_Page from "../pages/Home_Page";
-import details from "../components/details";
-
+import Detail_Page from "../pages/Detail_Page";
 
 Vue.use(Router)
 
@@ -39,8 +38,8 @@ export default new Router({
         },
         {
             path: '/details/:Pid',
-            name: 'details',
-            component: details
+            name: 'Detail_Page',
+            component: Detail_Page
         }
 
     ]

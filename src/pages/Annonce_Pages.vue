@@ -1,12 +1,19 @@
 <template>
     <div>
-        <h1>ANNONCES</h1>
+        <Navbar/>
+        <Annonce />
+        <Footer/>
+
     </div>
 </template>
 
 <script>
+    import Navbar from "../components/Navbar";
+    import Annonce from "../components/Annonce";
+    import Footer from "../components/Footer";
     export default {
-        name: "Annonce_Pages"
+        name: "Annonce_Pages",
+        components: {Footer, Annonce, Navbar}
     }
 </script>
 
