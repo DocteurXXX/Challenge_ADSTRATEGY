@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "productID" : 1,
     "marque": "APRILIA",
     "model": "RSV",
     "cyl": "1000",
@@ -16,6 +17,7 @@
   },
   {
     "id": 2,
+    "productID" : 2,
     "marque": "BMW",
     "model": "GS",
     "cyl": "1200",
@@ -31,6 +33,7 @@
   },
   {
     "id": 3,
+    "productID" : 3,
     "marque": "APRILIA",
     "model": "DORSODURO",
     "cyl": "750",
@@ -46,6 +49,7 @@
   },
   {
   "id": 4,
+    "productID" : 4,
   "marque": "SUZUKI",
   "model": "GSXR",
   "cyl": "1000",
@@ -61,6 +65,7 @@
   },
   {
     "id": 5,
+    "productID" : 5,
     "marque": "YAMAHA",
     "model": "MT09 TRACER",
     "cyl": "900",
@@ -76,6 +81,7 @@
   },
   {
     "id": 6,
+    "productID" : 6,
     "marque": "KTM",
     "model": "SM",
     "cyl": "690",
@@ -91,6 +97,7 @@
   },
   {
     "id": 7,
+    "productID" : 7,
     "marque": "SUZUKI",
     "model": "GSXR",
     "cyl": "1000",
@@ -106,6 +113,7 @@
   },
   {
     "id": 8,
+    "productID" : 8,
     "marque": "KAWASAKI",
     "model": "ZZR",
     "cyl": "1400",

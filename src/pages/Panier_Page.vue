@@ -1,7 +1,6 @@
 <template>
     <div>
         <Navbar />
-        <Test />
         <Construction />
         <Footer/>
     </div>
@@ -11,10 +10,9 @@
     import Navbar from "../components/Navbar";
     import Construction from "../components/Construction";
     import Footer from "../components/Footer";
-    import Test from "../components/Test";
     export default {
         name: "Panier_Page",
-        components: {Test, Footer, Construction, Navbar}
+        components: {Footer, Construction, Navbar}
     }
 </script>
 
