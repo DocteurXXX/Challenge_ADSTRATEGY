@@ -3,7 +3,7 @@
 
                 <div class="col-lg-7 offset-lg-1">
                     <div class="card">
-                        <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i>CONTACTEZ-NOUS</div>
+                        <div class="card-header bg-primary text-white"><i class="fa fa-envelope bar"></i>CONTACTEZ-NOUS</div>
                             <div class="card-body">
                                 <form>
                                     <div class="form-group">
@@ -29,7 +29,7 @@
 
                 <div class="col-lg-3 ">
                         <div class="card">
-                            <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i>ADRESSE</div>
+                            <div class="card-header bg-primary text-white"><i class="fa fa-envelope bar"></i>ADRESSE</div>
                                 <div class="card-body">
                                     <p>10, rue du Vigna</p>
                                     <p>26260 BATHERNAY</p>
@@ -53,5 +53,10 @@
     .formulaire
     {
         margin-top: 5vh;
+    }
+
+    .bg-primary
+    {
+        background-color: var(--main-color) !important;
     }
 </style>

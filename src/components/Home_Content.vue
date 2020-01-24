@@ -51,6 +51,10 @@
 
 <style scoped>
 
+    .cardAnnonce
+    {
+        margin-bottom: 1%;
+    }
     .cadre
     {
         border: solid;
