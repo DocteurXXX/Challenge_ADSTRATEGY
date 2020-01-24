@@ -50,10 +50,7 @@
 </script>
 
 <style scoped>
-    .cardAnnonce
-    {
-        margin: 0 0 10% 0;
-    }
+
     .cadre
     {
         border: solid;
