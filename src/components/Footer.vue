@@ -19,7 +19,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12  position logoplace footerLogo">
-                        <a href="/"><img src="./../assets/Monkey.png" alt="footerLogo" class="footerLogoImg"/></a>
+                        <a href="/"><img src="./../assets/Moto.png" alt="footerLogo" class="footerLogoImg"/></a>
                 </div>
 
             </div>

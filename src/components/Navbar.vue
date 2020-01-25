@@ -2,7 +2,7 @@
     <div class=" Navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <img class="monkeyLogo"
-                 src="./../assets/Monkey.png"
+                 src="./../assets/Moto.png"
                  alt="Logo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
